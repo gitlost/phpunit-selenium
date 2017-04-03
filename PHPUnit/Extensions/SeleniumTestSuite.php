@@ -119,7 +119,7 @@ class PHPUnit_Extensions_SeleniumTestSuite extends PHPUnit_Framework_TestSuite
                         );
                     }
 
-                    $suite->addTest($browserSuite);
+                    $suite->addTestSuite($browserSuite);
                 }
             }
             else {
